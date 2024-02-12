@@ -12,24 +12,22 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
+     "No",
+      "3afak a houbinu",
+      "katbghini yak",
+      "waaa 3afak a bibich!",
+      "yak ana 3ssila 3ssila!",
+      "atguli ah bssif elik",
+      "kanghik ana hi guli ah!",
+      "wa wlh ta tbrki ela yes",
+      "ra atndmi!",
+      "hi guli ah ou n3tik boussa!",
+      "wa 3afak a merti!",
+      "Akhir forssa endek",
+      "lahhh y7fdek?",
+      "wa berki ela yess",
       "You're breaking my heart ;(",
     ];
-
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
 
